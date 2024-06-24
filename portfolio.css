@@ -129,6 +129,25 @@ header nav ul li a:hover {
   font-size: 3.5rem;
 }
 
+.landing .intro img {
+  height: 30px;
+  width: 30px;
+}
+
+.social {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  right: 40px;
+  top: 500px;
+  gap: 20px;
+}
+
+.social img:hover {
+  filter: drop-shadow(4px 8px 27px #ffffff);
+  scale: 2;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 600;
